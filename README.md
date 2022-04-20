@@ -1,4 +1,4 @@
-# Bank_Loan_Project
+# Bank Personal Loan Analisys with Python
 ## Project overview
 * We need to know which factors influence to give a loan
 * We also need to look for any opportunity to increase the bank's assets.
