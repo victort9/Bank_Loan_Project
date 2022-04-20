@@ -31,30 +31,31 @@ The activities performed were the following:
 * Elimination of negative values
 * Exploration of the correlation of data and outliers: There is a strong correlation between age and experience
 
-![]()
+![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/Correlation_heatmap.png)
 
 * Analysis of the distribution of the data: A large number of outliers were found in income
 
-![]()
+![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/Boxplot.png)
+![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/histogram.png)
 
 ## Exploratory Data Analysis:
 The EDA was done with the target questions in mind "What is the most important factor to give a personal loan?". Several conclusions were obtained which will be presented below.
 
 * Distribution of client education: The most of clients are undergraduates but it appears that education does not have a direct relationship with personal loan.
 
-![]()
-![]()
+![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/Pie_education.png)
+![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/Boxplot_persn_loan.png)
 
 * Analysis of client account type: The vast majority of clients do not have a security or credit account. It could generate some extra assets for the bank if we find a way to encourage them to have one.
 
-![]()
+![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/Pie_account_type.png)
 
 * Personal loan in relation to other factors: It seems that the most important factor for a loan is income, no surprise there. Another really important factor is the number of relatives in the family.
 
-![]()
+![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/Income_persn_loan.png)
 
 ## Conclusions
 * The most influential values are income and family size.
 * The least influential values are age and experience.
 * It is advisable to encourage customers to create a credit account and security.
-* You can access the code [HERE]()
+* You can access the code [HERE](https://github.com/victort9/Bank_Loan_Project/blob/main/Files/Bank_Personal_Loan_Analysis.ipynb)
