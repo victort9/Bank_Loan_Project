@@ -8,51 +8,53 @@
 
 ## Objective:
 ### Questions that will drive the analysis
-* Which products of all the stores generates the highest and lowest profits?
-* Which months will generate the highest profits and on which dates and states?
-* What is the best time to sell our products?
+Central question:
+
+**What is the most important factor to give a personal loan?**
+
+Other questions:
+
+* What is the relationship between education and personal loan?
+* What is the distribution of the client population?
+* What types of accounts and security do our clients have?
+* What is the relationship between income and loans?
+* What is the relationship between mortgage and loans?
 
 ## Data cleaning and data preparation
-The data shows the sales of an electronics store, you can see the raw data [HERE](https://github.com/victort9/Excel_Analysis_Project/tree/main/Files). As you can see in the image below, the format of the data was not appropriate for the analysis, so it had to be cleaned and prepared.
 
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Raw_data.png)
+The file Bank_Personal_Loan_Data.csv contains data on 5000 customers, you can see the raw data [HERE](https://github.com/victort9/Bank_Loan_Project/blob/main/Files/Bank_Personal_Loan_Data.csv). The data include customer demographic information like "age", "income"... The customer's relationship with the bank like "mortgage", "securities account"... And the customer response to the last personal loan campaign "Personal Loan".
 
 The activities performed were the following:
 
-* Eliminate duplicates and cells that did not correspond to the data.
-* Eliminate or correct missing values
-* Adjust the dates because they did not have the proper format.
-* Create the time, city and state columns for the analysis.
-* The dataset consists of a single table with 13 columns and almost 3.4 million rows.
+* "ID" has had to be removed because it is not related to the loan. 
+* The "ZIP Code" has also been removed because we can judge the customers based on their area or location by looking the price of the houses in that area, but in this case we will use only the income.
+* Elimination of negative values
+* Exploration of the correlation of data and outliers: There is a strong correlation between age and experience
 
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Cleaned_data.png)
+![]()
 
-## Data Analysis:
-The analysis was done using Excel pivot tables and visualizations considering the target questions.
+* Analysis of the distribution of the data: A large number of outliers were found in income
 
-* Which product of all the stores generates the highest and lowest profits: For this, the products were analyzed with respect to sales.
+![]()
 
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/top_products_profit.png)
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Bottom_5_num_sales.png)
+## Exploratory Data Analysis:
+The EDA was done with the target questions in mind "What is the most important factor to give a personal loan?". Several conclusions were obtained which will be presented below.
 
-* Which months will generate the highest profits and on which dates and state? The sales analysis was made over time
+* Distribution of client education: The most of clients are undergraduates but it appears that education does not have a direct relationship with personal loan.
 
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Sales_by_month.png)
+![]()
+![]()
 
-* What is the best time to sell our products? The time and days of the week were used to evaluate the sales performance in a week.
+* Analysis of client account type: The vast majority of clients do not have a security or credit account. It could generate some extra assets for the bank if we find a way to encourage them to have one.
 
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Sales_by_hour.png)
+![]()
 
-## Visualizations
-Finally we obtained a dashboard with 2 sheets showing the sales in a general way and the other one showing the performance of these at different times of the day and weeks. You can see the dashboards below and you can access the document by clicking [HERE](https://github.com/victort9/Excel_Analysis_Project/tree/main/Files).
+* Personal loan in relation to other factors: It seems that the most important factor for a loan is income, no surprise there. Another really important factor is the number of relatives in the family.
 
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Performance_overview.png)
-![](https://github.com/victort9/Excel_Analysis_Project/blob/main/Images/Sales_overview.png)
-
-PS. Since the file "Sales_Data_2019_Report" is larger than 25 MB I have decided to separate the sheet with the final data to another file called "Sales_Data_2019_Final_Data".
+![]()
 
 ## Conclusions
-* Despite being the least sold product, the MacBook Pro Laptop remains the best selling product every month. The product with the least number of sales is the LG Dryer.
-* The best times to sell are at 12:00 and 19:00 on Tuesdays, October and December are the best selling months.
-* Sales in California were much higher than in the other states, concentrating marketing efforts here would generate higher profits but it is necessary to analyze the competition and market saturation for a better conclusion.
-* It is advisable to focus marketing efforts on the MacBook Pro as slightly increasing sales in this product could considerably increase profits. It is advisable to find another product to sell that can generate more sales than the LG Dryer.
+* The most influential values are income and family size.
+* The least influential values are age and experience.
+* It is advisable to encourage customers to create a credit account and security.
+* You can access the code [HERE]()
