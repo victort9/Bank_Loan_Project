@@ -1,12 +1,12 @@
 # Bank Personal Loan Analisys with Python
 ## Project overview
 * We need to know which factors influence to give a loan
-* We also need to look for any opportunity to increase the bank's assets.
-* It was found that apart from income, family size is an important factor.
-* The libraries used were pandas, numpy, matplotlib, seaborn and scipy.
-* You can access the Jupiter Notebook [HERE](https://github.com/victort9/Bank_Loan_Project/blob/main/Files/Bank_Personal_Loan_Analysis.ipynb).
+* We also need to look for any opportunity to increase the bank's assets
+* It was found that apart from income, family size is an important factor
+* The libraries used were pandas, numpy, matplotlib, seaborn and scipy
+* You can access the Jupiter Notebook [HERE](https://github.com/victort9/Bank_Loan_Project/blob/main/Files/Bank_Personal_Loan_Analysis.ipynb)
 
-## Objective:
+## Objective
 ### Questions that will drive the analysis
 Central question:
 
@@ -44,7 +44,7 @@ The activities performed were the following:
 ![](https://github.com/victort9/Bank_Loan_Project/blob/main/Images/histogram.png)
 
 
-## Exploratory Data Analysis:
+## Exploratory Data Analysis
 The EDA was done with the target questions in mind "What is the most important factor to give a personal loan?". Several conclusions were obtained which will be presented below.
 
 * Distribution of client education: The most of clients are undergraduates but it appears that education does not have a direct relationship with personal loan.
@@ -71,4 +71,4 @@ The EDA was done with the target questions in mind "What is the most important f
 * The most influential values are income and family size.
 * The least influential values are age and experience.
 * It is advisable to encourage customers to create a credit account and security.
-* You can access the code [HERE](https://github.com/victort9/Bank_Loan_Project/blob/main/Files/Bank_Personal_Loan_Analysis.ipynb)
+* You can access the code [HERE](https://github.com/victort9/Bank_Loan_Project/blob/main/Files/Bank_Personal_Loan_Analysis.ipynb).
